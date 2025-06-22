@@ -14,4 +14,4 @@ class Car:
     def stop(self):
         print("this car has stopped")
     def compliment(self):
-        print(self.model+"of"+self.make+"is a brilliant car")
+        print(self.model,"of",self.make,"is a brilliant car")
