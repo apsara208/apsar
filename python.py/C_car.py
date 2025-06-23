@@ -15,3 +15,6 @@ class Car:
         print("this car has stopped")
     def compliment(self):
         print(self.model,"of",self.make,"is a brilliant car")
+#self is a conventionally used parameter name that represents the instance of the class
+#__init__ is a special method, often referred to as the constructor
+#a constructor is a special method used to initialize an object when it is created. It is defined using the __init__ method and is automatically called when an instance of a class is created.
