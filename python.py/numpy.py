@@ -6,3 +6,6 @@
 #easy to learn
 # uses relatively less memory.
 #Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations, and narrative tex
+import numpy 
+#1. conversion from other data structures:
+print(numpy.__version__)
