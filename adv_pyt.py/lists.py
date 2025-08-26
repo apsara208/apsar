@@ -59,3 +59,4 @@ listy=mylist3.copy()
 #relating lists
 sq_list=[x*x for x in mylist3]
 print(sq_list)
+#
