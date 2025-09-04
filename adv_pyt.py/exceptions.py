@@ -14,7 +14,7 @@ assert (y>=0),"y is not positive"'''
 '''except zerodivisonerror at e:
     print(e)
 '''
-try:
+'''try:
     a=5/0
 except:
     print("an error happened")
@@ -22,10 +22,13 @@ else:
     print("everything is fine")  #if no exception occurs
 finally:
     print("cleaning up")
+    '''
 
 
 class ValurTooHighError(Exception):
-    print("value is too high")
+   pass
+
+
 class ValueTooSmallError(Exception):
     def __init__(self, message, value):
         self.message =message
@@ -38,9 +41,11 @@ def test_value(x):
         raise ValueTooSmallError("value is too small ", x)
     
 try: 
-    test_value(200)
+    test_value(101)
 except ValurTooHighError as e:
     print(e)
+except ValueTooSmallError as e:
+    print(e.message,e.value)
     
 
 
