@@ -10,4 +10,7 @@ my_df=pd.DataFrame(my_data,my_rows,my_cols)
 print(my_df)
 
 #import csv file
-my_df2=
+#my_df2=pd.read_csv("files.csv")
+
+#pull out rows
+#my_df2.loc[0] #first row(horizontal)
