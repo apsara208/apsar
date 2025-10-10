@@ -15,6 +15,5 @@ print(my_df)
 #pull out rows
 #my_df2.loc[0] #first row(horizontal)
  
-my_d=pd.read_csv
 
  #add new column
