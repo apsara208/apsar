@@ -50,4 +50,40 @@ c=my_df.loc[1,"First Name"]
 #my_df[["row","row"],["column","column"]]
 d=my_df.loc[[1,2],["Last Name","First Name"]]#order here matters not of the data frame 
 #last name will be given before first name , contrasting the data
-print(my_df)
+#print(my_df)
+
+#conditional selection
+#> < >= <= etc
+#returns boolean 
+#print(my_df=="Phillip")
+
+#returns dataframe with data
+#print(my_df[my_df=="Phillip"])
+
+#run thrm only on a column
+#print(my_df[my_df=="Phillip"]["First Name"])
+
+#return in multiple columns
+#print(my_df[my_df=="Phillip"][["First Name","Last Name"]])
+#print(my_df[my_df==][["First Name","Last Name"]])
+
+#multiple conditonal AND
+#print(my_df[(my_df["First Name"]=="Phillip") & (my_df["Email"]=="bethany14@example.com")])
+
+#get length
+#print(len(my_df[(my_df["First Name"]=="Phillip") & (my_df["Email"]=="bethany14@example.com")]))
+
+
+#multiple conditonal OR
+#print(my_df[(my_df["First Name"]=="Phillip") | (my_df["Email"]=="bthompson@example.com")])
+
+#return specificn column
+#print(my_df[(my_df["First Name"]=="Phillip") & (my_df["Email"]=="bethany14@example.com")]["Last Name"])
+
+
+
+
+
+
+
+#print(my_df)
